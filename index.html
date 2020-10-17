@@ -14,6 +14,20 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+    <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico">
+    <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
+
   </head>
 
   <body>
@@ -42,7 +56,7 @@
           <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#footer">Contact</a>
         </li>
       </ul>
     </header>
@@ -68,16 +82,16 @@
     <!-- End #lead -->
 
     <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
+      <div>
+        <div>
+          <div>
             <h2 class="heading">About Me</h2>
           </div>
-          <div class="col-md-8">
+          <div class="row">
             <p>
               A passionate Software Developer 🚀 having an experience of
               building Web and Mobile applications with JavaScript / Reactjs /
-              React Native / Node / Express / MongoDB / Django and some other
+              React Native / Node / Express / MongoDB / Bootstrap and some other
               cool libraries and frameworks. I will gladly learn any new
               technologies needed.
             </p>
@@ -91,25 +105,24 @@
       <h2 class="heading">Experience</h2>
       <div id="experience-timeline">
         <div data-date="March 2019 – Now">
-          <h3>Tsurumi Manufacturing Co.Ltd</h3>
-          <h4>Mechanical Engineer</h4>
+          <h3>Mechanical Engineer</h3>
+          <h4>Osaka</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec
-            nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
-            libero. Morbi dapibus porta quam laoreet placerat.
+            From January 2019 i started to work as a Mechanical Engineer in Osaka, 
+            but actually i don't like my current job, it don't have place for creativity here. 
+            I realized that i cannot do great work if i don't love my job.
           </p>
         </div>
 
-        <div data-date="April 2019 – April 2020">
-          <h3>FreeCodeCamp.org</h3>
-          <h4>Camper</h4>
+        <div data-date="January 2019 – Now">
+          <h3>Learn to code</h3>
+          <h4>Internet</h4>
           <p>
-            It has been 2 years ago since the day I found FreeCodeCamp, a great
-            programming learning site where I found my love for Web development
-            and Programming. Information technology isone of the fastest growing
+            It has been 2 years ago since the day I found FreeCodeCamp, and many other
+            great programming learning site - I found my love for Web development
+            and Programming. Information technology is one of the fastest growing
             industries - the field of the future so I want to work in this field
-            and become a Developer.
+            and become a Cool Developer.
           </p>
         </div>
       </div>
@@ -136,124 +149,102 @@
     </div>
     <!-- End #education -->
 
+
     <div id="projects" class="background-alt">
       <h2 class="heading">Projects</h2>
-      <div class="container">
-        <div class="row">
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img
-                src="images/random-quote-machine.JPG"
-                width="300"
-                height="200"
-              />
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Random Quote Machine</h3>
-              <p>
-                A simple app building with HTML+CSS+Javascript. This is my first
-                web app and very meaningful to me.
-              </p>
-              <a
-                href="https://my-random-quote-machine.netlify.app/"
-                target="_blank"
-              >
-                View Project
-              </a>
-            </div>
-            <!-- End .project-info -->
-          </div>
-          <!-- End .project -->
 
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/flappybird.JPG" / width="300" height="200">
+      <!-- start project area -->
+        <div class="album py-5 bg-light">
+          <div class="container">
+            <div class="row">
+              <!-- Random Quote Machine -->
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <a href="https://my-random-quote-machine.netlify.app/" target="_blank">
+                    <img src="images/random-quote-machine.JPG" width="100%" height="225"  />
+                  </a>
+                  <div class="card-body">
+                    <a href="https://my-random-quote-machine.netlify.app/" target="_blank">Random Quote Machine</a>
+                    <p class="card-text">A simple app building with HTML+CSS+Javascript, 
+                      it was deployed on Heroku. This is my first web app and very meaningful to me.</p>
+    
+                  </div>
+                </div>
+              </div>
+              <!-- Original Flappybird Game -->
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <a href="https://flappy-brid-vannamnguyen.netlify.app/" target="_blank">
+                    <img src="images/flappybird.JPG" width="100%" height="225" />
+                  </a>
+                  <div class="card-body">
+                    <a href="https://flappy-brid-vannamnguyen.netlify.app/" target="_blank">Flappybird Game</a>
+                    <p class="card-text">An arcade-style game in which the player controls the bird Faby. 
+                      The player is tasked with navigating Faby through pairs of pipes that have equally 
+                      sized gaps placed at random heights.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- 2048 -->
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <a href="https://vannamnguyen.github.io/2048/" target="_blank">
+                    <img class="img-project" src="images/2048.JPG" width="100%" height="225"/>
+                  </a>
+                  <div class="card-body">
+                    <a href="https://vannamnguyen.github.io/2048/" target="_blank">2048 Game</a>
+                    <p class="card-text">2048 is played on a gray 4×4 grid, with numbered tiles that slide when 
+                      a player moves them using the four arrow keys. Player need 2048 poin to win the game.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- react-calculator-app -->
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <a href="https://reactcalculator-app.netlify.app/" target="_blank">
+                    <img src="images/reactcalculator.JPG" width="100%" height="225"/>
+                  </a>
+                  <div class="card-body">
+                    <a href="https://reactcalculator-app.netlify.app/" target="_blank">React Calculator App</a>
+                    <p class="card-text">A Calculator App building with HTML+CSS+Javascript. 
+                      This app was deployed on Netlify.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Corona Tracker -->
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <a href="https://corona-tracker-vannamnguyen.netlify.app/" target="_blank">
+                    <img src="images/corona-tracker.JPG" width="100%" height="225" />
+                  </a>
+                  <div class="card-body">
+                    <a href="https://corona-tracker-vannamnguyen.netlify.app/" target="_blank">Corona Tracker</a>
+                    <p class="card-text">This app so the number of Infected, Recovered and Deaths because of Corona Virus.
+                      This app was building with React.js deployed on Netlify.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Social Media App -->
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <a href="https://react-social-app-vannamnguyen.netlify.app/" target="_blank">
+                    <img src="images/react-social-app.JPG" width="100%" height="225"/>
+                  </a>
+                  <div class="card-body">
+                    <a href="https://react-social-app-vannamnguyen.netlify.app/" target="_blank">Social Media App</a>
+                    <p class="card-text">This web app was building with React.js have basic funtions of 
+                      a Social Media web, user can post, comment and like others post. </p>
+                  </div>
+                </div>
+              </div>
+              
             </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Original Flappybird Game</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
-                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
-                eget efficitur libero. Morbi dapibus porta quam laoreet
-                placerat.
-              </p>
-              <a
-                href="https://flappy-brid-vannamnguyen.netlify.app/"
-                target="_blank"
-                >View Project</a
-              >
-            </div>
-            <!-- End .project-info -->
-          </div>
-          <!-- End .project -->
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/corona-tracker.JPG" / width="300" height="200">
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Corona Tracker</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
-                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
-                eget efficitur libero. Morbi dapibus porta quam laoreet
-                placerat.
-              </p>
-              <a
-                href="https://corona-tracker-vannamnguyen.netlify.app/"
-                target="_blank"
-                >View Project</a
-              >
-            </div>
-            <!-- End .project-info -->
-          </div>
-          <!-- End .project -->
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/project.jpg" />
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>E-commerce website</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
-                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
-                eget efficitur libero. Morbi dapibus porta quam laoreet
-                placerat.
-              </p>
-              <a href="#">View Project</a>
-            </div>
-            <!-- End .project-info -->
-          </div>
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/project.jpg" />
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Social Media App</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
-                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
-                eget efficitur libero. Morbi dapibus porta quam laoreet
-                placerat.
-              </p>
-              <a href="#">View Project</a>
-            </div>
-            <!-- End .project-info -->
           </div>
         </div>
       </div>
-    </div>
-    <!-- End #projects -->
+      <!-- end of project area -->
+
 
     <div id="skills">
       <h2 class="heading">Skills</h2>
@@ -264,66 +255,45 @@
         <li>JQuery</li>
         <li>Express</li>
         <li>Redux</li>
-        <li>npm</li>
-        <li>MongoDB</li>
+        <li>D3.js</li>
+        <li>MongoDB</li> 
         <li>Mongoose</li>
         <li>JavaScript</li>
         <li>Python</li>
         <li>Node.js</li>
         <li>React</li>
         <li>Django</li>
-        <li>React-Native</li>
+        <li>Git&GitHub</li>
+        <!-- <li>React-Native</li> -->
       </ul>
     </div>
     <!-- End #skills -->
-
-    <div id="contact">
-      <h2>Get in Touch</h2>
-      <p>&lt;vannam9a3@gmail.com&gt;</p>
-      <div id="contact-form">
-        <form method="POST" action="https://formspree.io/email@email.com">
-          <input
-            type="hidden"
-            name="_subject"
-            value="Contact request from personal website"
-          />
-          <input
-            type="email"
-            name="_replyto"
-            placeholder="Your email"
-            required
-          />
-          <textarea
-            name="message"
-            placeholder="Your message"
-            required
-          ></textarea>
-          <button type="submit">Send</button>
-        </form>
-      </div>
-      <!-- End #contact-form -->
-
-      <!------------------------------->
     </div>
     <!-- End #contact -->
 
-    <footer>
+    <footer id="footer">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-5 copyright">
-            <p>Copyright &copy; 2020 Van Nam Nguyen</p>
+        <div class="top" >
+          <span id="to-top">
+            <i class="fa fa-chevron-up" aria-hidden="true" text-align='center'></i>
+          </span>
+        </div>
+        
+          <div class="copyright">
+            <p>Get in Touch &lt;vannam9a3@gmail.com&gt;</p>
           </div>
-          <div class="col-sm-2 top">
-            <span id="to-top">
-              <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            </span>
-          </div>
-          <div class="col-sm-5 social">
+          
+          <div class="social">
             <ul>
               <li>
                 <a href="https://github.com/vannamnguyen" target="_blank"
                   ><i class="fa fa-github" aria-hidden="true"></i
                 ></a>
+              </li>
+              <li>
+                <a href="https://codepen.io/vannamnguyen" target="_blank">
+                  <i class="fa fa-codepen" aria-hidden="true"></i>
+                </a>
               </li>
               <li>
                 <a
@@ -357,20 +327,18 @@
               </li>
             </ul>
           </div>
+
+        <div class="copyright">
+          <p>Copyright &copy; 2020 Van Nam Nguyen</p>
         </div>
+
       </div>
     </footer>
     <!-- End footer -->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+
   </body>
 </html>
 
-<!-- github: "https://github.com/vannamnguyen", linkedin:
-"https://www.linkedin.com/in/nam-van-86b582123/", gmail: "vannam9a3@gmail.com",
-gitlab: "https://gitlab.com/vannamnguyen", facebook:
-"https://www.facebook.com/vannam9a3", medium: "https://medium.com/@vannam9a3",
-stackoverflow: "https://stackoverflow.com/users/9679159/vannam-nguyen",
-instargram: "https://www.instagram.com/van_nam__/", twitter:
-"https://twitter.com/van_nam_nguyen", -->
+

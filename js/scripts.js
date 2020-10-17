@@ -94,4 +94,13 @@
         });
     });
 
+    function ContactToggle() {
+        var x = document.getElementById('ContactToggle');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+      }
+
 })(jQuery);
